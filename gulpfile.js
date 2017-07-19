@@ -99,7 +99,7 @@ gulp.task('remove', function() {
 gulp.task('build', function() {
 
   gulp.src(['**/**','!node_modules/**','!dist/**','!**/.sass-cache','!**/.DS_Store'])
-  	.pipe(zip('memories.zip'))
+  	.pipe(zip('studio.zip'))
   	.pipe(gulp.dest('../'))
   	.pipe(notify({ message: 'Zip task complete', onLast: true }));
 

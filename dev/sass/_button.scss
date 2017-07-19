@@ -1,5 +1,6 @@
 .btn,
 .button,
+.nav-links div a,
 input[type="submit"] {
   display: inline-block;
   position: relative;
@@ -25,4 +26,9 @@ input[type="submit"] {
     transition: all .5s cubic-bezier(0, 0, 0.86, 0.57);
     color: hsl(231, 48%, 48%);
   }
+}
+.nav-links div a:hover{
+  box-shadow: inset 300px 0 0 0 hsl(231, 48%, 48%);
+  color: #fff;
+
 }

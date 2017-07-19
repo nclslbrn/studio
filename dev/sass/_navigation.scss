@@ -78,5 +78,42 @@ page.page-container.pushed{
   li a:active {
     color: #333;
   }
+}
 
+.nav-links {
+  clear: both;
+  float: none;
+  height: 4em;
+
+  .nav-previous {
+    float: left;
+    margin-left: 1rem;
+
+    a::before{
+      content: '≪ ';
+    }
+  }
+  .nav-next {
+    float: right;
+    margin-right: 1rem;
+    a::after {
+      content: ' ≫';
+    }
+  }
+  .nav-previous,
+  .nav-next {
+
+    a{
+      position: relative;
+      text-decoration: none;
+      padding: 1rem 1.5rem;
+      line-height: 1em;
+      font-size: .7em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      height: 1em;
+      background: #fff;
+      color: #2f47d0;
+    }
+  }
 }

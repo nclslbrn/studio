@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: STUDIO
 Theme URI: https://studio.nicolas-lebrun.fr
@@ -1821,6 +1822,33 @@ page.page-container.pushed {
   .main-navigation .menu ul.nav-menu li a:active {
     color: #333; }
 
+.nav-links {
+  clear: both;
+  float: none;
+  height: 4em; }
+  .nav-links .nav-previous {
+    float: left;
+    margin-left: 1rem; }
+    .nav-links .nav-previous a::before {
+      content: '≪ '; }
+  .nav-links .nav-next {
+    float: right;
+    margin-right: 1rem; }
+    .nav-links .nav-next a::after {
+      content: ' ≫'; }
+  .nav-links .nav-previous a,
+  .nav-links .nav-next a {
+    position: relative;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    line-height: 1em;
+    font-size: .7em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    height: 1em;
+    background: #fff;
+    color: #2f47d0; }
+
 body {
   margin: 0;
   padding: 0;
@@ -1970,8 +1998,7 @@ article,
     .home .site-main .hero .wrapper,
     .category .site-content .site-main,
     .site .site-footer {
-      max-width: 1280px;
-      padding-top: 2rem; } }
+      max-width: 1280px; } }
 
 .home .site-main > .wrapper {
   position: relative;
@@ -2044,10 +2071,17 @@ article {
     article .entry-content img {
       max-width: 100%;
       height: auto; }
-  article .entry-content h1, article .entry-content h2, article .entry-content h3, article .entry-content h4, article .entry-content p {
-    display: block;
-    padding-left: 5rem;
-    padding-right: 5rem; }
+  article .entry-content {
+    padding-bottom: 1rem; }
+    article .entry-content h1, article .entry-content h2, article .entry-content h3, article .entry-content h4, article .entry-content p {
+      display: block;
+      padding-left: 5rem;
+      padding-right: 5rem; }
+    article .entry-content .btn {
+      display: block;
+      margin: 2rem auto 1rem;
+      width: 200px;
+      clear: both; }
 
 article.on-home {
   position: relative;
@@ -2134,6 +2168,7 @@ article.on-home > .row:hover {
 
 .btn,
 .button,
+.nav-links div a,
 input[type="submit"] {
   display: inline-block;
   position: relative;
@@ -2159,12 +2194,18 @@ input[type="submit"] {
   transition: all .5s ease-out; }
   .btn:hover,
   .button:hover,
+  .nav-links div a:hover,
   input[type="submit"]:hover {
     -webkit-box-shadow: inset 300px 0 0 0 #fff;
     box-shadow: inset 300px 0 0 0 #fff;
     -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.86, 0.57);
     transition: all 0.5s cubic-bezier(0, 0, 0.86, 0.57);
     color: #4051b5; }
+
+.nav-links div a:hover {
+  -webkit-box-shadow: inset 300px 0 0 0 #4051b5;
+  box-shadow: inset 300px 0 0 0 #4051b5;
+  color: #fff; }
 
 input[type="text"],
 input[type="email"],

@@ -145,7 +145,6 @@ article,
   }
   @include breakpoint(laptop) {
     max-width: 1280px;
-    padding-top: 2rem;
   }
 
   padding: 0;
@@ -233,10 +232,18 @@ article {
     }
   }
   .entry-content {
+    padding-bottom: 1rem;
+
     h1, h2, h3, h4, p {
       display: block;
       padding-left: 5rem;
       padding-right: 5rem;
+    }
+    .btn {
+      display: block;
+      margin: 2rem auto 1rem;
+      width: 200px;
+      clear: both;
     }
   }
 }

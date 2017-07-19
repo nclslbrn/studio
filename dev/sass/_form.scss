@@ -1,0 +1,35 @@
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  padding: .4rem;
+  width: 100%;
+  font-size: 1.2em;
+  line-height: 1.6em;
+
+  border: 1px solid #ecebeb;
+
+  &:focus {
+    border: 1px solid #ccc;
+    outline: none;
+  }
+}
+.wpcf7-form-control-wrap span {
+  display: block;
+  padding: 1rem;
+}
+.wpcf7-form-control-wrap span.wpcf7-list-item,
+.wpcf7-form-control-wrap span.wpcf7-radio {
+  display: inline-block;
+
+  .wpcf7-list-item-label,
+  input[type="checkbox"],
+  input[type="radio"] {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 1rem 0 1rem;
+  }
+  input[type="checkbox"] {
+    float: left;
+  }
+}

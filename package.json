@@ -1,0 +1,41 @@
+{
+  "name": "studio",
+  "version": "1.0.1",
+  "description": "A wordpress theme for frontend designer",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "flexboxgrid-sass": "^8.0.5",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-clean-css": "^3.4.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-ignore": "^2.0.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "gulp-zip": "^4.0.0",
+    "plumber-sass": "^0.7.7"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "javascript",
+    "frontend",
+    "webdesign",
+    "wordpress"
+  ],
+  "author": "Nicolas Lebrun",
+  "license": "MIT"
+}

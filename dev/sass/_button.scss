@@ -1,0 +1,28 @@
+.btn,
+.button,
+input[type="submit"] {
+  display: inline-block;
+  position: relative;
+  margin: .5rem;
+  padding: 0 1rem;
+  line-height: 42px;
+  text-decoration: none;
+  font-weight: bolder;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  background: hsl(231, 63%, 50%);
+  background: linear-gradient( #3551f5, #425cf3);
+  outline: none;
+  border: 2px solid #3551f5;
+  box-shadow: inset 0 0 0 0 #fff;
+  cursor: pointer;
+  transition: all .5s ease-out;
+
+  &:hover {
+    box-shadow: inset 300px 0 0 0 #fff;
+    transition: all .5s cubic-bezier(0, 0, 0.86, 0.57);
+    color: hsl(231, 48%, 48%);
+  }
+}

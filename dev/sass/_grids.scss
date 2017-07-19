@@ -1,0 +1,11 @@
+// Build grid with flexboxgrid-sass
+// @link https://github.com/hugeinc/flexboxgrid-sass/blob/master/README.md
+
+$grid-columns: 12;
+$gutter-width: 3rem;
+$outer-margin: 3rem;
+$breakpoints:
+  sm 62em 46rem,
+  md 64em 70rem,
+  lg 75em 71rem !default;
+@import '../../node_modules/flexboxgrid-sass/flexboxgrid.scss';

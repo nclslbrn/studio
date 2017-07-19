@@ -1,0 +1,39 @@
+$brand-01: #FFF140;
+$brand-02: #C4A934;
+$brand-03: #5B574E;
+$brand-04: #1F2C2B;
+$background: #f9f9f9;
+
+
+.brand-01{
+  background-color: $brand-01;
+}
+
+.brand-02{
+  background-color: $brand-02;
+}
+
+.brand-03{
+  background-color: $brand-03;
+}
+
+.brand-04{
+  background-color: $brand-04;
+}
+
+
+[role=info] {
+  background-color: #d7ecfa;
+}
+
+[role=success] {
+  background-color: #e1faea;
+}
+
+[role=warning] {
+  background-color: #fff3d9;
+}
+
+[role=alert] {
+  background-color: #f7e4e1;
+}

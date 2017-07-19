@@ -88,17 +88,10 @@ page.page-container.pushed{
   .nav-previous {
     float: left;
     margin-left: 1rem;
-
-    a::before{
-      content: '≪ ';
-    }
   }
   .nav-next {
     float: right;
     margin-right: 1rem;
-    a::after {
-      content: ' ≫';
-    }
   }
   .nav-previous,
   .nav-next {

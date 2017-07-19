@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
 Theme Name: STUDIO
 Theme URI: https://studio.nicolas-lebrun.fr
@@ -1829,13 +1828,9 @@ page.page-container.pushed {
   .nav-links .nav-previous {
     float: left;
     margin-left: 1rem; }
-    .nav-links .nav-previous a::before {
-      content: '≪ '; }
   .nav-links .nav-next {
     float: right;
     margin-right: 1rem; }
-    .nav-links .nav-next a::after {
-      content: ' ≫'; }
   .nav-links .nav-previous a,
   .nav-links .nav-next a {
     position: relative;
